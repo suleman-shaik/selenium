@@ -14,6 +14,7 @@ public class Using_Hard_Assert {
 	@Test
 	public void HardAssert() 
 	{
+		//changes done in github
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
